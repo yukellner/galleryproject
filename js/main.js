@@ -39,3 +39,13 @@ function renderprojects(){
 
     $('.portfolio-grid').html(curstr)
 }
+
+function sendemail(){
+debugger
+    alert($('textarea').value)
+
+
+    var k = $('#content-email')
+    console.log('k',k)
+    debugger
+}

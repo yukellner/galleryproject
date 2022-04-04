@@ -98,6 +98,18 @@ body {
 
 }
 
+#contact{
+    text-align: center;
+}
+
+.form-control{
+    width: 90%;
+}
+
+.form-control{
+    margin: 0 auto;
+}
+
 
 .offcanvas-aside {
     position: fixed;
