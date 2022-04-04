@@ -14,6 +14,11 @@ a:focus,
 a:hover {
     color: #fec503;
 }
+
+
+.modal-open .modal{
+    max-width: 50%;
+}
 h1,
 h2,
 h3,
@@ -44,6 +49,10 @@ section h3.section-subheading {
     section {
         padding: 150px 0;
     }
+
+    /* .container{
+        max-width: 200px
+    } */
 }
 ::-moz-selection {
     background: #fed136;
@@ -316,6 +325,9 @@ header.masthead .intro-text .intro-heading {
     margin: 0;
 }
 .portfolio-modal .modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 100%;
     padding: 100px 0;
     text-align: center;
